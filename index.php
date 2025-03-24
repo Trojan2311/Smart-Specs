@@ -3,9 +3,9 @@ session_start();
 include 'db.php';
 
 // Dell API credentials
-$dellClientId = "PARTH_CLIENT_ID";
-$dellClientSecret = "PARTH_CLIENT_SECRET";
-$dellApiKey = "PARTH_API_KEY";
+$dellClientId = "_CLIENT_ID";
+$dellClientSecret = "_CLIENT_SECRET";
+$dellApiKey = "_API_KEY";
 
 if (!isset($_SESSION['username'])) {
     header("Location: login.php");
